@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![LightGBM](https://img.shields.io/badge/LightGBM-GBDT-2E7D32?style=for-the-badge&logo=sparkfun&logoColor=white)](https://lightgbm.readthedocs.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
 
 <br/>
 
