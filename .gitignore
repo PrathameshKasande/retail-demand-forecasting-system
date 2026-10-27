@@ -11,7 +11,9 @@ tests/
 # Continuous Integration & Pipelines
 .github/
 
-#  processed Datasets
+#  processed Datasets and Raw and heavy datasets
+data/raw/
+data/processed/
 data/processed/
 
 # Keep only the sample data required for initial cloud run
