@@ -1,0 +1,24 @@
+# Virtual Environments & Python cache
+venv/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Git & CI/CD
+.git/
+.gitignore
+.github/
+
+# Development notebooks & local files
+notebooks/
+*.ipynb
+
+# Heavy raw datasets (keep image under 400MB)
+data/raw/
+data/processed/
+
+# System files
+.DS_Store
+Thumbs.db

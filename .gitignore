@@ -1,0 +1,32 @@
+# Python & Virtual Environments
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Testing & Cache Directories
+tests/
+.pytest_cache/
+
+# Continuous Integration & Pipelines
+.github/
+
+#  processed Datasets
+data/processed/
+
+# Keep only the sample data required for initial cloud run
+!data/sample/
+!data/sample/sample_sales.csv
+
+# Non-essential Model Artifacts (Keep ONLY the active booster model)
+models/evaluation_report.json
+models/lightgbm_model.pkl
+models/scaler.pkl
+
+# Keep the production booster model required by app.py
+!models/lightgbm_forecast_model.txt
+
+# Local IDE / OS settings
+.vscode/
+.DS_Store
+Thumbs.db

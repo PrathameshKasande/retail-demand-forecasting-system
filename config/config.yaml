@@ -1,0 +1,14 @@
+data:
+  raw_path: "data/raw/online_retail_II.csv"
+  processed_path: "data/processed/daily_sales.parquet"
+  sample_path: "data/sample/sample_sales.csv"
+  top_n_skus: 20
+
+features:
+  forecast_horizon: 14
+  lag_days: [14, 21, 28]
+  rolling_windows: [7, 14, 28]
+
+training:
+  val_days: 14
+  model_save_path: "models/lightgbm_forecast_model.txt"
